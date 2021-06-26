@@ -1,0 +1,462 @@
+body {
+  box-sizing: border-box;
+  height: auto;
+  background-color: #1d1c1c;
+  color: white;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+}
+.upward {
+  display: flex;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  justify-content: space-between;
+}
+.upright {
+  display: flex;
+  gap: 2rem;
+}
+.Addbtn {
+  padding: 0px;
+  height: 70%;
+}
+.searchbar {
+  background-color: transparent;
+  width: auto;
+  border: none;
+  /* border: white solid 2px; */
+  border-radius: 15px;
+  height: 50%;
+  margin-top: 3%;
+}
+
+.mainContent {
+  height: 80%;
+}
+.leftGrid {
+  display: flex;
+  /* width: 80%; */
+}
+.grid2 {
+  display: flex;
+}
+
+.application {
+  margin-left: 1rem;
+}
+.dognut {
+  display: grid;
+  margin-left: 6rem;
+  overflow: hidden;
+}
+
+.firstbox {
+  display: flex;
+  box-shadow: rgb(61, 61, 61) 0px 1px 3px;
+  justify-content: space-around;
+  max-width: 100%;
+  width: 80%;
+  margin: 12%;
+  border-radius: 5px;
+  padding: 15px;
+}
+.secondbox {
+  margin: 12%;
+  width: 80%;
+  position: relative;
+  box-shadow: rgb(61, 61, 61) 0px 1px 3px;
+  border-radius: 5px;
+}
+
+.thirdbox {
+  display: flex;
+  box-shadow: rgb(61, 61, 61) 0px 1px 3px;
+  justify-content: space-around;
+  max-width: 100%;
+  width: 80%;
+  margin: 12%;
+  border-radius: 5px;
+  padding: 15px;
+}
+.bluebox {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3f51b5;
+  transform: translate(5%, 10%);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 100%;
+}
+.fourthbox {
+  box-shadow: rgb(61, 61, 61) 0px 1px 3px;
+  justify-content: space-between;
+  width: auto;
+  margin: 6%;
+  margin-top: 2%;
+  border-radius: 5px;
+  padding: 5px;
+}
+.fifthbox {
+  box-shadow: rgb(61, 61, 61) 0px 1px 3px;
+  margin: 3%;
+  height: 100%;
+  height: fit-content;
+  box-sizing: content-box;
+  margin-top: 3.5%;
+  border-radius: 5px;
+  padding-top: 15px;
+}
+
+.appStatus {
+  margin-top: 2px;
+  font-size: small;
+}
+.progress {
+  height: 8px;
+  width: 70%;
+}
+ul li {
+  list-style: disc;
+  margin-top: 1.4rem;
+}
+.MuiPaper {
+  background-color: rgb(82, 51, 51);
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.send {
+  display: flex;
+}
+.sendicon {
+  margin-top: 0.7rem;
+  color: #dc3545;
+  transform: rotate(-45deg);
+}
+.sixbox {
+  box-shadow: rgb(61, 61, 61) 0px 1px 3px;
+  justify-content: center;
+  display: grid;
+  margin: 6%;
+  margin-top: 2%;
+  border-radius: 5px;
+  padding: 5px;
+}
+.btnsix {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.six {
+  font-size: xx-small;
+  box-shadow: rgb(61, 61, 61) 4px 1px 5px -5px;
+  justify-content: center;
+  text-align: center;
+  margin: 7px;
+  padding: 10px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.grid4 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 100%;
+  box-sizing: border-box;
+}
+.button {
+  display: flex;
+  gap: 2rem;
+  /* margin-left: 3rem; */
+}
+
+.btn {
+  width: 15rem;
+  margin-left: 1.2rem;
+}
+p {
+  margin-bottom: 0%;
+}
+.sevenbox {
+  display: grid;
+  box-shadow: rgb(61, 61, 61) 0px 1px 3px;
+  box-sizing: border-box;
+  margin: 3%;
+  border-radius: 5px;
+  padding-top: 1rem;
+}
+.seven {
+  height: fit-content;
+  box-sizing: content-box;
+}
+
+.piepara {
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+}
+
+.piechart {
+  display: grid;
+  overflow: hidden;
+  justify-content: end;
+  background-size: cover;
+  margin-left: 2%;
+}
+.CircularProgress {
+  width: auto;
+  height: 5vh;
+  padding: 0%;
+}
+
+.CircularProgress:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.1);
+}
+.CircularProgressbar {
+  width: auto;
+  vertical-align: middle;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.contain {
+  margin-left: 2rem;
+  width: 70%;
+  background-color: rgb(59, 59, 59);
+  border-radius: 20px;
+}
+
+/* ...............................................................................................................
+............................................................................................................... */
+
+.rightGrid {
+  /* display: grid; */
+  box-shadow: rgb(61, 61, 61) 0px 1px 3px;
+  height: 87%;
+  max-height: min-content;
+  margin: 3rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+.block2 {
+  position: relative;
+  height: 60%;
+  background-color: rgb(22, 22, 22);
+  border-radius: 3rem;
+  /* padding-top: 2rem;
+  padding-left: 1rem; */
+}
+.newApp {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.container {
+  display: flex;
+}
+/* .MuiGrid-grid-xs-4 {
+  flex-grow: 0;
+  max-width: 33.333333%;
+  flex-basis: 33.333333%;
+} */
+.bg-progress1 {
+  background-color: lightblue;
+}
+.bg-progress2 {
+  background-color: blue;
+}
+.bg-progress3 {
+  background-color: green;
+}
+.bg-progress4 {
+  background-color: yellow;
+}
+.bg-progress5 {
+  background-color: violet !important;
+}
+/* ...........................................................................................................
+
+ResPonsive
+
+............................................................................................................ */
+
+@media screen and (min-width: 5px) and (max-width: 768px) {
+  .MuiGrid-grid-xs-8 {
+    flex-grow: unset;
+    max-width: unset;
+    flex-basis: unset;
+  }
+  .MuiGrid-grid-xs-4 {
+    flex-grow: unset;
+    max-width: unset;
+    flex-basis: unset;
+  }
+
+  .container {
+    display: grid;
+  }
+
+  /* ........................ */
+
+  .upward {
+    display: grid;
+    justify-content: space-between;
+  }
+
+  .searchbar {
+    margin-top: 0%;
+  }
+  .upright {
+    margin-top: 2rem;
+  }
+  .container {
+    width: 100%;
+    display: grid;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+  }
+  .grid2 {
+    display: grid;
+    margin-top: 1rem;
+  }
+  .firstbox {
+    display: flex;
+    box-shadow: rgb(61 61 61) 0px 1px 3px;
+    justify-content: space-around;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 30px;
+    margin: 0%;
+    margin-top: 1rem;
+  }
+  .secondbox {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 1rem;
+    position: relative;
+    box-shadow: rgb(61 61 61) 0px 1px 3px;
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 30px;
+  }
+  .bluebox {
+    display: flex;
+    box-shadow: rgb(61 61 61) 0px 1px 3px;
+    justify-content: space-around;
+    max-width: 100%;
+    width: 100%;
+    transform: none;
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 30px;
+    margin: 0%;
+  }
+  .thirdbox {
+    display: flex;
+    box-shadow: rgb(61 61 61) 0px 1px 3px;
+    justify-content: space-around;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 30px;
+    margin: 0%;
+    margin-top: 1rem;
+  }
+
+  /* Grid 3 */
+  .grid3 {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    height: max-content;
+    margin-top: 1rem;
+  }
+
+  /* Grid 3 */
+  .fourthbox {
+    margin: unset;
+    margin-top: unset;
+    padding: unset;
+    width: unset;
+  }
+
+  .fifthbox {
+    margin: 0%;
+    margin-top: 1rem;
+  }
+  /* Grid 4 */
+  .grid4 {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    height: max-content;
+    margin-top: 1rem;
+  }
+
+  .stats {
+    display: grid;
+    justify-content: space-around;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .btnsix {
+    display: grid;
+    margin-bottom: 1rem;
+  }
+
+  .button {
+    display: grid;
+    grid-gap: 1rem;
+    gap: 1rem;
+    margin-left: 0;
+  }
+
+  .six {
+    box-shadow: rgb(61 61 61) 0px 4px 4px -5px;
+  }
+  .sixbox {
+    box-shadow: rgb(61 61 61) 0px 1px 3px;
+    justify-content: center;
+    display: grid;
+    /* margin: none; */
+    margin: unset;
+    margin-top: unset;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .sevenbox {
+    margin: 0%;
+    margin-top: 1rem;
+  }
+  .seven {
+    max-height: none;
+    height: 100%;
+    box-sizing: content-box;
+  }
+  .leftGrid {
+    display: grid;
+  }
+
+  .rightGrid {
+    margin: 0rem;
+    margin-top: 3rem;
+  }
+}
